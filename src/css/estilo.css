@@ -1,0 +1,98 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-family: "outfit";
+}
+
+.cartao{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 520px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 8px 7px 8px hsl(217, 100%, 5%), 3px 5px 8px hsl(216, 73%, 16%);
+}
+
+.imagem-equilibrium{
+    width: 315px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.image-do-cartao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-do-cartao{
+    
+    margin-left: 20px;
+}
+
+.cripto-moeda{
+    padding-top: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.descricao{
+    padding-top: 10px;
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.descricao-inferior{
+    display: flex;
+    padding: 15px;
+}
+
+.lista{
+    display: flex;
+    list-style: none;
+}
+
+.lista .ethereum{
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(178, 100%, 50%);
+    margin-right: 90px;
+}
+
+.lista .dias{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.linha{
+    border-color: hsl(215, 32%, 27%);
+    width: 300px;
+}
+
+.criador-da-cripto{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+}
+
+.foto{
+    height: 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+.rede-social{
+    color: white;
+    text-decoration: none;
+}
